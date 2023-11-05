@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: none;
+}
+
+.login {
+  background: linear-gradient(140deg, rgba(49, 49, 49, 0.9019607843), #191919 75%);
+  min-height: 100vh;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.login .login-form {
+  background-color: rgba(0, 0, 0, 0.23);
+  max-width: 420px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  padding-bottom: 80px;
+}
+.login .login-form .login-logo {
+  display: block;
+  margin: -80px auto 40px;
+  width: 120px;
+  border-radius: 50%;
+}
+.login .login-form form {
+  width: 100%;
+}
+.login .login-form form .input-con {
+  position: relative;
+}
+.login .login-form form .input-con i {
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  translate: -50% -50%;
+  color: #bf9b30;
+}
+.login .login-form form .input-con .password-icon {
+  width: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  opacity: 0.4;
+  top: 50%;
+  translate: -50% -50%;
+}
+.login .login-form form input {
+  display: block;
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-top: 1.2rem;
+  background-color: #3a3939;
+  color: white;
+  outline: none;
+  font-size: 1.05rem;
+  padding: 0.9rem;
+  font-weight: 700;
+  transition: 0.15s;
+  border: 1px solid transparent;
+}
+.login .login-form form input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.login .login-form form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.login .login-form form input[type=number]::-webkit-inner-spin-button, .login .login-form form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.login .login-form form input[type=number] {
+  -webkit-appearance: textfield;
+          appearance: textfield;
+  -moz-appearance: textfield;
+}
+.login .login-form form input:not([type=button]) {
+  padding-left: 50px;
+}
+.login .login-form form input[type=button] {
+  background-color: #bf9b30;
+  margin-top: 2.4rem;
+  transition: 0.15s;
+  line-height: 1.5;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.login .login-form form input[type=button]:hover {
+  background-color: #e7bc3c;
+}
+.login .login-form form input:focus {
+  border: 1px solid rgba(191, 155, 48, 0.7);
+  box-shadow: 0 0 6px 0 #bf9b30;
+}/*# sourceMappingURL=style.css.map */
