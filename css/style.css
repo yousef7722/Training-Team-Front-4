@@ -36,12 +36,19 @@
 .login .login-form form .input-con {
   position: relative;
 }
-.login .login-form form .input-con i {
+.login .login-form form .input-con .login-icon {
   position: absolute;
+  width: 23px;
   left: 25px;
   top: 50%;
   translate: -50% -50%;
   color: #bf9b30;
+}
+.login .login-form form .input-con .login-user {
+  border: 1px solid #bf9b30;
+  border-radius: 3px;
+  padding: 1px;
+  width: 18px;
 }
 .login .login-form form .input-con .password-icon {
   width: 30px;
@@ -57,7 +64,7 @@
   width: 100%;
   border-radius: 0.5rem;
   margin-top: 1.2rem;
-  background-color: #3a3939;
+  background-color: #414040;
   color: white;
   outline: none;
   font-size: 1.05rem;
